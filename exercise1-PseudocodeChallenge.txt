@@ -1,0 +1,66 @@
+SOAL NOMOR 1 :
+
+ALGORITMA
+1. Masukkan nilai massa benda (m) dan nilai percepatan benda (a)
+2. Maka untuk menghitung nilai resultan gaya (F), kali kan (*) nilai 'm' dengan nilai 'a'
+3. Nilai F (resultan gaya) akan dicetak sebagai ouput.
+
+PSEUDOCODE
+READ and SAVE `massa`
+READ and SAVE `percepatan`
+COMPUTE `massa` times `percepatan`
+SAVE previous computation result
+SHOW the computation result
+
+
+SOAL NOMOR 2 :
+
+ALGORITMA
+1. Masukkan nilai tahun (year)
+2. Jika 'year' habis di bagi 4 dan tidak habis di bagi 100, tampilkan "Leap Year"
+3. Jika 'year' habis di bagi 4, habis di bagi 100 dan habis di bagi 400, tampilkan "Leap Year"
+4. Jika 'year' tidak memenuhi salah satu dari syarat 2 atau syarat 3, tampilakn "Not Leap Year"
+
+PSEUDOCODE
+READ and SAVE `year`
+IF `year` modulo 4 equal to 0 AND `year` modulo 100 not equal to 0
+    DISPLAY "Leap Year"
+ELSE IF `year` modulo 4 equal to 0 AND `year` modulo 100 eqaul to 0 AND `year modulo 400 equal to 0
+    DISPLAY "Leap Year"
+ELSE
+    DISPLAY "Not Leap Year"
+
+
+SOAL NOMOR 3 :
+
+ALGORITMA
+1. Masukkan nilai 'baju' = 0
+2. Mulai baju pertama sebagai baju 0
+3. Saat baju didalam mesin cuci sudah mencapai baju 19 (<20), mesin cuci dinyalakan
+
+PSEUDOCODE
+STORE `baju` as 0
+WHILE (`baju` is less than 20)
+    DO "Masukkan baju selanjutnya" -> true condition
+       "Mesin cuci dinyalakan" -> false condition
+END
+
+
+SOAL NOMOR 4 :
+
+ALGORITMA
+1. Masukkan nilai 'totalMurid' = 0 (murid pertama dimulai sebagai Murid 0)
+2. Masukkan nilai 'kukuMurid' murid
+2. Jika nilai kuku murid 'panjang', maka 'Murid dihukum'
+3. Jika nilai kuku murid 'pendek', maka 'Murid dipuji'
+4. Lakukan perulangan sampai 'Murid 39' (<40)
+
+PSEUDOCODE
+STORE `totalMurid` as 0
+READ and SAVE `kukuMurid`
+WHILE (`murid` is less than 40)
+    DISPLAY `totalMurid`
+IF `kukuMurid` equal to `panjang`
+    DO "Murid dihukum"
+ELSE "Murid dipuji
+END
